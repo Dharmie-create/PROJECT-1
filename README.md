@@ -42,13 +42,14 @@ The dataset for this analysis was provided by LITA Incubator Hub, an initiative 
 - Checked for spelling errors, duplicate values, and blank cells.
 - Ensured data quality by removing duplicate entries.
 
-2 Data Importing
-- **Importing Data Into SQL**: The data which was in excel format was converted to csv file. To import the data into SQL, I used SQL Server Management Studio(SSMS). A database was created named CAPSTONE using the following command: 
-CREATE DATABASE 
-The csv file was then imported by right clicking on the database created, go to taks, go to import flat files, browse the file, click on next, and then finish. The file was scanned through before importing. It was then viewed in SQL by using the following command:
- Select * from …..
+2 **Data Importing**
+- **Importing Data Into SQL**: The data which was in excel format was converted to csv file. To import the data into SQL, I used SQL Server Management Studio(SSMS). A database was created named CAPSTONE using the following command: ```CREATE DATABASE CAPSTONEPROJECT```.
+The csv file was then imported by right clicking on the database created, go to taks, go to import flat files, browse the file, click on next, and then finish. The file was scanned through before importing. It was then viewed in SQL by using the following command: ```Select * from SalesData```
 
-Importing Data Into Power BI: For Power  BI, the file was imported by selecting the Get Data option and choosing Excel workbook. The file was searched for in my files and taken to the transform workshop before loading.
+- **Importing Data Into Power BI**: For Power  BI, the file was imported by selecting the Get Data option and choosing Excel workbook. The file was searched for in my files and taken to the transform workshop before loading.
       
+3. **Data Transformation**
+- Ensured all data fields were assigned the correct data types, with numerical fields formatted as currencies where appropriate, and date fields set to date format.
+- **Created New column**: A new column was added to get the revenue generated for each quantity of product old per transaction by multiplying the quantity sold by the unit price.
 
- 
+ ## Dashboard Overview
