@@ -110,10 +110,21 @@ as [Percentage of Total Sales] from [dbo].[CAPSTONE] group by Region
 
 ### Power BI
 The Power BI was used to create an interactive dashboard that visualizes the nsights gained from the sales data analysis. The dashboard provides and overview of sales performance in 2023 and 2024, highlights total revenue and top selling product and breakdown sales by product and region. Some visuals used were Bar Chart, Line Chart, Pie Chart, Visual Card.
-- Below is a dashboard of the overview of sales performance in 2023
+
+- **Below is a dashboard of the overview of sales performance in 2023**
   
 ![Screenshot (22)](https://github.com/user-attachments/assets/0b01397f-b263-4b5e-a2e4-49cf204c6ed9)
 
-- Below is a dashboard of the overview of sales performance in 2024
+- **Below is a dashboard of the overview of sales performance in 2024**
   
 ![PBI 2024](https://github.com/user-attachments/assets/e5363129-c670-4046-a592-86f34bb724ba)
+
+
+
+##  Insights Generation
+- The top selling product based on the number of quantity and highest number of transactions sold across all regions during the last two years is hat.
+- The product that generated the highest amount of revenue across all regions during the last two years is shoes.
+- The region that generated the highest amount of revenue during the last two years is the South region accounting for 44% of total sales. 
+- East had the highest number of transactions and highest number of quantity sold over the last two years.
+- In 2023, the revenue generated was higher than that of 2024, highlighting a downward trend in sales.
+
