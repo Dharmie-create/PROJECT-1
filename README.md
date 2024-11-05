@@ -67,4 +67,46 @@ The pivot table in excel was used to summarize and analyze the dataset to genera
   
 ![Pivot Tables(Excel)](https://github.com/user-attachments/assets/97057a46-9aef-4fc1-b8e4-648aef41f043)
 
+### SQL
+Some SQL queries were written to extract key insights from the retail store’s data. The goal was to analyze sales performance, identify trends, and support decision making through these insights. They are:
+- The total sales for each product category.
+- The number of sales transactions in each region.
+- The highest-selling product by total sales value. 
+- Calculate total revenue per product. 
+- Calculate monthly sales totals for the current year. 
+- Top 5 customers by total purchase amount. 
+- Calculate the percentage of total sales contributed by each region. 
+- Identify products with no sales in the last quarter.
+  
+  ```SQL
+  select Product, sum(Quantity) as [Total Sales For Each Product] from [dbo].[CAPSTONE] group By Product
+```
+
+
+ select Region, count(OrderDate) as [Number of Sales Transaction In Each Region] from [dbo].[CAPSTONE] group By Region
+```
+
+  ```SQL
+  select top 1 Product, sum(Quantity) as [Highest Selling Product] from [dbo].[CAPSTONE] group By Product
+```
+
+```SQL
+select Product, sum(TotalSales) as [Total Revenue For Each Product] from [dbo].[CAPSTONE] group By Product
+```
+
+  ```SQL
+  select month(OrderDate) as Month, sum(TotalSales) as [Monthly Sales] from [dbo].[CAPSTONE] where year(OrderDate)='2024' 
+group by Month(OrderDate) order by Month
+```
+
+```SQL
+select top 5 TotalSales, customer_id from [dbo].[CAPSTONE] order by TotalSales desc
+```
+
+  ```SQL
+  select Region, sum(totalsales) as [Total Sales of Region], sum(TotalSales)*1.0/(select sum(TotalSales) from [dbo].[CAPSTONE]) *100 
+as [Percentage of Total Sales] from [dbo].[CAPSTONE] group by Region
+```
+
+
 
