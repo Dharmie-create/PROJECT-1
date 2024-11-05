@@ -53,5 +53,18 @@ The csv file was then imported by right clicking on the database created, go to 
 - **Created New column**: A new column was added to get the revenue generated for each quantity of product old per transaction by multiplying the quantity sold by the unit price.
 
  ## Dashboard Overview
+![Sales Perform Analysis](https://github.com/user-attachments/assets/8ff8b134-9f78-4b49-9884-f4aecacc6a8f)
+
+## Exploratory Data Analysis 
+
+### Excel
+The pivot table in excel was used to summarize and analyze the dataset to generate some interesting reports.
+- Total Revenue  by Product
+- Total Revenue by Region
+- Total Quantity Sold by Product
+- Total Quantity Sold by Region
+- Total Sales by Order Date
+  
+![Pivot Tables(Excel)](https://github.com/user-attachments/assets/97057a46-9aef-4fc1-b8e4-648aef41f043)
 
 
