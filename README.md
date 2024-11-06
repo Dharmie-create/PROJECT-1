@@ -15,9 +15,9 @@
 
 [Insights Generation](#insights-generation)
 
-[Conclusions](conclusions)
+[Conclusions](#conclusions)
 
-[Recommendations](recommendations)
+[Recommendations](#recommendations)
 
 
 ## Project Overview
