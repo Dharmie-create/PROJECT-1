@@ -2,6 +2,20 @@
 
 ## Project Title: Sales Performance Analysis for a Retail Store
 
+## Outline
+[Project Overview](#project-overview)
+
+[Data Description](#data-description)
+
+[Methodology](#methodology)
+
+[Dashboard Overview](#dashboard-overview)
+
+[Exploratory Data Analysis](#exploratory-data-analysis)
+
+[Insights Generation](#insights-generation)
+
+
 ## Project Overview
 This data analysis project aims to generate insight into the sales performance of a retail store by exploring the sales data to uncover key insights such as regional performance, and monthly sales trend. By analyzing the various parameters in the data received, we seek to  gather enough insights to make reasonable decisions which then enable us to tell compelling stories around our data from the insight gotten and to know the best performance from our data. More so, we are able to figure out what is working, what is not working and what should be focused on.
 
