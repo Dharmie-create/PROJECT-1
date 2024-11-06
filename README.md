@@ -80,33 +80,40 @@ Some SQL queries were written to extract key insights from the retail store’s 
   
   ```SQL
   select Product, sum(Quantity) as [Total Sales For Each Product] from [dbo].[CAPSTONE] group By Product
-```
 
+![SQL query1](https://github.com/user-attachments/assets/3a193074-d5e8-493e-9776-800113cf94aa)
 
- select Region, count(OrderDate) as [Number of Sales Transaction In Each Region] from [dbo].[CAPSTONE] group By Region
 ```
+select Region, count(OrderDate) as [Number of Sales Transaction In Each Region] from [dbo].[CAPSTONE] group By Region
+```
+![SQL query 2](https://github.com/user-attachments/assets/3add88e1-02cd-4c74-ad63-a284c12e1895)
 
   ```SQL
   select top 1 Product, sum(Quantity) as [Highest Selling Product] from [dbo].[CAPSTONE] group By Product
 ```
+![SQL query3](https://github.com/user-attachments/assets/fad897b1-d211-4820-bbe7-31bedd2b0ed7)
 
 ```SQL
 select Product, sum(TotalSales) as [Total Revenue For Each Product] from [dbo].[CAPSTONE] group By Product
 ```
+![SQL query4](https://github.com/user-attachments/assets/9ab0f988-5572-46ec-b704-16eabf091661)
 
   ```SQL
   select month(OrderDate) as Month, sum(TotalSales) as [Monthly Sales] from [dbo].[CAPSTONE] where year(OrderDate)='2024' 
 group by Month(OrderDate) order by Month
 ```
+![SQL query5](https://github.com/user-attachments/assets/b39b2e06-f46c-4df2-868b-2cf7b91b480a)
 
 ```SQL
 select top 5 TotalSales, customer_id from [dbo].[CAPSTONE] order by TotalSales desc
 ```
+![SQL query6](https://github.com/user-attachments/assets/2fcbbccb-460e-40f0-ad27-1952d4463293)
 
   ```SQL
   select Region, sum(totalsales) as [Total Sales of Region], sum(TotalSales)*1.0/(select sum(TotalSales) from [dbo].[CAPSTONE]) *100 
 as [Percentage of Total Sales] from [dbo].[CAPSTONE] group by Region
 ```
+![SQL query7](https://github.com/user-attachments/assets/b82620e0-50f0-4422-8b7b-84fe641248e8)
 
 ### Power BI
 The Power BI was used to create an interactive dashboard that visualizes the nsights gained from the sales data analysis. The dashboard provides and overview of sales performance in 2023 and 2024, highlights total revenue and top selling product and breakdown sales by product and region. Some visuals used were Bar Chart, Line Chart, Pie Chart, Visual Card.
