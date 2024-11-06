@@ -1,6 +1,6 @@
 # PROJECT-1
 
-## Project Title: Sales Performance Analysis for a Retail Store
+# Project Title: Sales Performance Analysis for a Retail Store
 
 ## Outline
 [Project Overview](#project-overview)
