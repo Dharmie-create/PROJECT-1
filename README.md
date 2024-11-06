@@ -186,4 +186,7 @@ The Power BI was used to create an interactive dashboard that visualizes the ins
 9. Since socks sell in low quantities, increase visibility and demand for socks by offering discounts on other popular items like shoes, especially in the South, North, and East regions where sales are low.
 10. In the West, where there is some demand, experiment with limited-time promotions to strengthen interest and increase sales volume.
 11. Implement special promotions, discounts, or product bundles in the East region to regain customer interest and boost sales.
-12. Conduct a deeper analysis or customer surveys to understand the cause of declines in the products and regions and adapt strategies accoringly
+12. Conduct a deeper analysis or customer surveys to understand the cause of declines in the products and regions and adapt strategies accordingly.
+
+
+    # THANK YOU 
